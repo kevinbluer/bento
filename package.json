@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/kevinbluer/trufflecon/issues"
   },
-  "homepage": "https://github.com/kevinbluer/trufflecon#readme"
+  "homepage": "https://github.com/kevinbluer/trufflecon#readme",
+  "devDependencies": {
+    "@openzeppelin/truffle-upgrades": "^1.2.1"
+  }
 }
