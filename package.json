@@ -1,5 +1,5 @@
 {
-  "name": "truffle-trufflecon",
+  "name": "bento",
   "version": "1.0.0",
   "description": "",
   "main": "truffle-config.js",
@@ -11,15 +11,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kevinbluer/trufflecon.git"
+    "url": "git+https://github.com/kevinbluer/bento.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/kevinbluer/trufflecon/issues"
+    "url": "https://github.com/kevinbluer/bento/issues"
   },
-  "homepage": "https://github.com/kevinbluer/trufflecon#readme",
+  "homepage": "https://github.com/kevinbluer/bento#readme",
   "devDependencies": {
     "@openzeppelin/truffle-upgrades": "^1.2.1",
     "truffle-plugin-caramel": "0.0.4"
