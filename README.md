@@ -44,7 +44,7 @@ truffle run boooom landing https://moon.io
 
 A more complete example of a plugin is available [here](https://github.com/kevinbluer/truffle-plugin-caramel).
 
-## Truffle Box 
+## Truffle Box 🍛
 
 To package a repository you'll need the following...
 
