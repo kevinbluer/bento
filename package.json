@@ -22,5 +22,8 @@
   "homepage": "https://github.com/kevinbluer/trufflecon#readme",
   "devDependencies": {
     "@openzeppelin/truffle-upgrades": "^1.2.1"
+  },
+  "dependencies": {
+    "boooom": "../plugin/boooom"
   }
 }

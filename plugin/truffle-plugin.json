@@ -1,0 +1,5 @@
+{
+  "commands": {
+    "boooom": "plugin/boooom.js"
+  }
+}

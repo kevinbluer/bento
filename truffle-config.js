@@ -95,5 +95,8 @@ module.exports = {
       //  evmVersion: "byzantium"
       // }
     }
-  }
+  },
+  plugins: [
+    "boooom"
+  ]
 }
