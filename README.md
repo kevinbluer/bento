@@ -46,7 +46,7 @@ To package a repository you'll need the following...
 As you may have spotted, this is repository is actually already a box meaning you could install it via the following:
 
 ```
-truffle unbox kevinbluer/
+truffle unbox kevinbluer/bento
 ```
 
 Boxes can be include plugins pre-installed. For example, this [plugin](https://github.com/kevinbluer/truffle-plugin-caramel) is added as a dependency, meaning you can use it immediately (although you'll need to add your [Pinata](https://pinata.cloud/) details first).

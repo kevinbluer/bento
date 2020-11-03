@@ -97,6 +97,7 @@ module.exports = {
     }
   },
   plugins: [
-    "boooom"
+    "boooom",
+    "truffle-plugin-caramel"
   ]
 }
