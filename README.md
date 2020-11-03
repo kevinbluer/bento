@@ -4,14 +4,23 @@ A Truffle box that explores the various ways in which you can extend Truffle's f
 
 > Warning - Copious emojis have been used in the preparation of this box 
 
-## Executable Scripts
+## Executable Scripts 🍣
+
+Simple example...
 
 ```
 > truffle develop
 truffle(develop)> exec scripts/example.js
 ```
 
-## Truffle Plugin
+Interacting with an existing chain...
+
+```
+> truffle develop
+truffle(develop)> exec scripts/bento.js
+```
+
+## Truffle Plugin 💥
 
 Single command...
 
@@ -35,7 +44,7 @@ truffle run boooom landing https://moon.io
 
 A more complete example of a plugin is available [here](https://github.com/kevinbluer/truffle-plugin-caramel).
 
-## Truffle Box
+## Truffle Box 
 
 To package a repository you'll need the following...
 
