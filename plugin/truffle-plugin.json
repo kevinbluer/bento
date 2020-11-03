@@ -1,5 +1,5 @@
 {
   "commands": {
-    "boooom": "plugin/boooom.js"
+    "boooom": "boooom.js"
   }
 }
