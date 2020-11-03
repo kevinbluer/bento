@@ -1,8 +1,8 @@
 # Bento 🍱
 
-Truffle box that provides examples of the various ways in which you can extend Truffle's functionality through exec scripts, plugins, etc.
+A Truffle box that explores the various ways in which you can extend Truffle's functionality through exec scripts, plugins, etc.
 
-> Warning - Copious emojis have been used in the creation of this box 
+> Warning - Copious emojis have been used in the preparation of this box 
 
 ## Executable Scripts
 
