@@ -1,4 +1,4 @@
-# Extending Truffle Box
+# Bento 🍱
 
 Truffle box that provides examples of the various ways in which you can extend Truffle's functionality through exec scripts, plugins, etc.
 
@@ -33,6 +33,8 @@ truffle run boooom landing
 truffle run boooom landing https://moon.io
 ```
 
+A more complete example of a plugin is available [here](https://github.com/kevinbluer/truffle-plugin-caramel).
+
 ## Truffle Box
 
 To package a repository you'll need the following...
@@ -41,7 +43,11 @@ To package a repository you'll need the following...
 - [box-img-lg.png](box-img-lg.png)
 - [box-img-sm.png](box-img-sm.png)
 
-As you may have spotted, this is repository is actually already a box.
+As you may have spotted, this is repository is actually already a box meaning you could install it via the following:
+
+```
+truffle unbox kevinbluer/
+```
 
 Boxes can be include plugins pre-installed. For example, this [plugin](https://github.com/kevinbluer/truffle-plugin-caramel) is added as a dependency, meaning you can use it immediately (although you'll need to add your [Pinata](https://pinata.cloud/) details first).
 
