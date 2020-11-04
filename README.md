@@ -64,6 +64,20 @@ Boxes can be include plugins pre-installed. For example, this [plugin](https://g
 truffle run caramel list
 ```
 
+## Alternatives Approaches
+
+OpenZeppelin Upgrades...
+
+```
+truffle develop
+```
+
+In a separate terminal window (as this currently doesn't support execution from the `console`)...
+
+```
+truffle migrate --network development -f 3
+```
+
 ## Other
 
 - `npx` is your friend :)
