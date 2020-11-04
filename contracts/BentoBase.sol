@@ -6,4 +6,8 @@ contract BentoBase is Initializable {
   function initialize(uint256 initialValue) public initializer {
     value = initialValue;
   }
+
+  function getValue() public view returns (uint256) {
+    return value;
+  }
 }

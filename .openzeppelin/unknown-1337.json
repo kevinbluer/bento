@@ -2,8 +2,8 @@
   "manifestVersion": "3.1",
   "impls": {
     "41c9f716a23c288046283db15692b9c3a4ed42d6ade8efd9c9e893421ce6550b": {
-      "address": "0xa0AdaB6E829C818d50c75F17CFCc2e15bfd55a63",
-      "txHash": "0x8545af3d42f4d91778315e87a2f19d9c7655fb9efefd7e2262b42347edd1a789",
+      "address": "0xc07939CedeF7A0DA275197F75ac1B05ecceC12F4",
+      "txHash": "0x9907436524d851af8cf8f66c4c8147c7637013a1efc66e0f98d90f116c78678f",
       "layout": {
         "storage": [
           {
@@ -45,8 +45,8 @@
       }
     },
     "11883f7f249bb36cc39db32ee2183770ece65ff736f077c64aa247b6aa80e519": {
-      "address": "0x6891Ac4E2EF3dA9bc88C96fEDbC9eA4d6D88F768",
-      "txHash": "0x8548c64eaa0c653c1d3e903e1cadc089f48069cc0d942b3779ce02a0346b5299",
+      "address": "0x194B1d48ecBC4b3370Ac101D5399510f61b864Da",
+      "txHash": "0xa8e70108f99789b364ab0f482d0892f69d1db51faac4f27c7a7453b68a7c379a",
       "layout": {
         "storage": [
           {
@@ -86,10 +86,96 @@
           }
         }
       }
+    },
+    "532b4190608ae35821cd89d613d34f37ef0bc3214d9123dd9ed516866c8156ab": {
+      "address": "0x34139F4D4D37E4D278aD3ce31E2f90b64154149f",
+      "txHash": "0xb0487b3469ab4a3bd7a26757e36f510f5fed39626115bd4cdfa5fe0495f93e13",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "initialized",
+            "type": "t_bool",
+            "src": "../@openzeppelin/upgrades-core/contracts/Initializable.sol:23"
+          },
+          {
+            "contract": "Initializable",
+            "label": "initializing",
+            "type": "t_bool",
+            "src": "../@openzeppelin/upgrades-core/contracts/Initializable.sol:28"
+          },
+          {
+            "contract": "Initializable",
+            "label": "______gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "../@openzeppelin/upgrades-core/contracts/Initializable.sol:63"
+          },
+          {
+            "contract": "BentoUpgrade",
+            "label": "value",
+            "type": "t_uint256",
+            "src": "BentoUpgrade.sol:5"
+          }
+        ],
+        "types": {
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_bool": {
+            "label": "bool"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]"
+          }
+        }
+      }
+    },
+    "88c6644ffaf53c594d4cfec3ccffc17c4fc549180fbdff0a56b159551909488f": {
+      "address": "0xC38df10266265Bc5403b8e60BcF72ACB1570ed0e",
+      "txHash": "0x1c5438de5142847280db2b265c0497ce7fbd269f82eace44c737986f85f6d730",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "initialized",
+            "type": "t_bool",
+            "src": "../@openzeppelin/upgrades-core/contracts/Initializable.sol:23"
+          },
+          {
+            "contract": "Initializable",
+            "label": "initializing",
+            "type": "t_bool",
+            "src": "../@openzeppelin/upgrades-core/contracts/Initializable.sol:28"
+          },
+          {
+            "contract": "Initializable",
+            "label": "______gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "../@openzeppelin/upgrades-core/contracts/Initializable.sol:63"
+          },
+          {
+            "contract": "BentoBase",
+            "label": "value",
+            "type": "t_uint256",
+            "src": "BentoBase.sol:5"
+          }
+        ],
+        "types": {
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_bool": {
+            "label": "bool"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]"
+          }
+        }
+      }
     }
   },
   "admin": {
-    "address": "0x0AB914c9d348967E60657d5aEF774dc3274cFA06",
-    "txHash": "0x3d57d3c429007406ae1759cfb65185104aa68c1d9a69647afeeb7d9576712ff9"
+    "address": "0xcfA12237AD3bD570802C1F35af0380971F9C4615",
+    "txHash": "0x94360b726e0d2a21051ce46c2f5d0209fe3be9882fa4355d15414ec487b17e5e"
   }
 }
