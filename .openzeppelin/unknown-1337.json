@@ -1,0 +1,95 @@
+{
+  "manifestVersion": "3.1",
+  "impls": {
+    "41c9f716a23c288046283db15692b9c3a4ed42d6ade8efd9c9e893421ce6550b": {
+      "address": "0xa0AdaB6E829C818d50c75F17CFCc2e15bfd55a63",
+      "txHash": "0x8545af3d42f4d91778315e87a2f19d9c7655fb9efefd7e2262b42347edd1a789",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "initialized",
+            "type": "t_bool",
+            "src": "../@openzeppelin/upgrades-core/contracts/Initializable.sol:23"
+          },
+          {
+            "contract": "Initializable",
+            "label": "initializing",
+            "type": "t_bool",
+            "src": "../@openzeppelin/upgrades-core/contracts/Initializable.sol:28"
+          },
+          {
+            "contract": "Initializable",
+            "label": "______gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "../@openzeppelin/upgrades-core/contracts/Initializable.sol:63"
+          },
+          {
+            "contract": "BentoBase",
+            "label": "value",
+            "type": "t_uint256",
+            "src": "BentoBase.sol:5"
+          }
+        ],
+        "types": {
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_bool": {
+            "label": "bool"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]"
+          }
+        }
+      }
+    },
+    "11883f7f249bb36cc39db32ee2183770ece65ff736f077c64aa247b6aa80e519": {
+      "address": "0x6891Ac4E2EF3dA9bc88C96fEDbC9eA4d6D88F768",
+      "txHash": "0x8548c64eaa0c653c1d3e903e1cadc089f48069cc0d942b3779ce02a0346b5299",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "initialized",
+            "type": "t_bool",
+            "src": "../@openzeppelin/upgrades-core/contracts/Initializable.sol:23"
+          },
+          {
+            "contract": "Initializable",
+            "label": "initializing",
+            "type": "t_bool",
+            "src": "../@openzeppelin/upgrades-core/contracts/Initializable.sol:28"
+          },
+          {
+            "contract": "Initializable",
+            "label": "______gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "../@openzeppelin/upgrades-core/contracts/Initializable.sol:63"
+          },
+          {
+            "contract": "BentoUpgrade",
+            "label": "value",
+            "type": "t_uint256",
+            "src": "BentoUpgrade.sol:5"
+          }
+        ],
+        "types": {
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_bool": {
+            "label": "bool"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]"
+          }
+        }
+      }
+    }
+  },
+  "admin": {
+    "address": "0x0AB914c9d348967E60657d5aEF774dc3274cFA06",
+    "txHash": "0x3d57d3c429007406ae1759cfb65185104aa68c1d9a69647afeeb7d9576712ff9"
+  }
+}
