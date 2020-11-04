@@ -1,5 +1,6 @@
 const liftoff = require("./commands/liftoff");
 const landing = require("./commands/landing");
+const configExample = require("./commands/config");
 
 module.exports = (config) => {
 
@@ -22,6 +23,9 @@ module.exports = (config) => {
       break;
     case "landing":
       landing(config);
+      break;
+    case "config":
+      configExample(config);
       break;
     default:
       console.log("Command not found. Run truffle run boooom --help to see the full list.");
