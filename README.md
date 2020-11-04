@@ -75,10 +75,11 @@ Try it yourself...
 truffle(develop)> compile --all
 truffle(develop)> migrate --to 3
 truffle(develop)> i = await BentoBase.deployed()
-truffle(develop)> i.getValue()
+truffle(develop)> i.getValue() 
+truffle(develop)> i.setValue(888) // 🚫
 truffle(develop)> migrate --f 4
 truffle(develop)> i = await BentoUpgrade.deployed()
-truffle(develop)> i.setValue()
+truffle(develop)> i.setValue(888)
 ```
 
 ## Other
