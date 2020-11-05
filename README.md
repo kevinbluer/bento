@@ -1,3 +1,5 @@
+![image](box-img-sm.png)
+
 # Bento 🍱
 
 A Truffle box that explores the various ways in which you can extend Truffle's functionality through exec scripts, plugins, etc.
